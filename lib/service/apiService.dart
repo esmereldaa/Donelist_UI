@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 import 'package:project_donelist/model/getDataModel.dart';
 
 class ApiService {
-  final String linkURL = "http://10.0.2.2:8000/api/v1";
+  final String linkURL = "https://donelistapp.herokuapp.com/api/v1";
 
   Future<String> login(String email, String password) async {
     var responeStatus;
